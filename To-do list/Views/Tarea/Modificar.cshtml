@@ -1,0 +1,40 @@
+﻿@model To_do_list.Models.ViewModel.TareaModel;
+@{
+    ViewData["Title"] = "Editar Tarea";
+}
+<div class="container">
+    <div class="row">
+        <div class="col-8 offset-2">
+            <h1 class="text-dark">Editar Tarea</h1>
+
+            <form asp-controller="Tarea" asp-action="Modificar" enctype="multipart/form-data" method="post">
+                
+                <input type="hidden" asp-for="idTarea" />
+
+                <div class="mb-3">
+                    <input asp-for="Nombre" class="form-control" placeholder="Nombre"/>
+                    <span asp-validation-for="Nombre" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <input asp-for="FechaVencimiento" class="form-control" type="date" placeholder="Fecha de Vencimiento"/>
+                    <span asp-validation-for="FechaVencimiento" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <input asp-for="HoraVencimiento" class="form-control" type="time" placeholder="Hora de vencimiento"/>
+                    <span asp-validation-for="HoraVencimiento" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <input asp-for="Descripcion" class="form-control" placeholder="Descripción"/>
+                    <span asp-validation-for="Descripcion" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <input asp-for="Archivo" type="file" class="btn btn-light"/>
+                </div>
+                <input type="hidden" asp-for="Finalizado"/>
+                <input type="hidden" asp-for="IdUsuario"/>
+
+                <input type="submit" value="Modificar" class="btn btn-primary"/>
+            </form>
+        </div>
+    </div>
+</div>

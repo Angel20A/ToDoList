@@ -1,0 +1,46 @@
+﻿@model To_do_list.Models.ViewModel.TareaModel
+@{
+    ViewData["Title"] = "Ver";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-8 offset-2">
+            <form asp-controller="Tarea" asp-action="Ver" enctype="multipart/form-data" method="post">
+                <div class="col-8 offset-4">
+                    <h1 class="text-primary">Detalles.</h1>
+                </div>
+                <h2 style="color: darkgrey">Tarea:</h2>
+                <h2>@Model.Nombre</h2>
+                <br />
+                <br />
+                <h3 style="color: darkgrey">Fecha de vencimiento: </h3>
+                <h3>@Model.FechaVencimiento</h3>
+                <br />
+                <h3 style="color: darkgrey">Hora de vencimiento:</h3>
+                <h3> @Model.HoraVencimiento</h3>
+
+                @if (Model.Descripcion != null)
+                {
+                    <br />
+                    <br />
+                    <h3 style="color: darkgrey">Descripción:</h3>
+                    <h3>@Model.Descripcion</h3>
+
+                }
+                
+            </form>
+            @if (Model.Archivo != null)
+            {
+                <br />
+                <br />
+                <h3 style="color: darkgrey">Archivo:</h3>
+                <div class="col-8 offset-4">
+                    <img src="/Tarea/DescargarArchivo/@Model.idTarea" alt="Archivo" width="400" />
+                </div>
+                <br />
+                <a target="_blank" href="/Tarea/DescargarArchivo/@Model.idTarea">Descargar archivo</a>
+            }
+        </div>
+    </div>
+</div>

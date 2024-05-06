@@ -1,0 +1,25 @@
+﻿@model To_do_list.Models.Tarea;
+@{
+    ViewData["Title"] = "Eliminar";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-8 offset-2">
+            <form method="post" asp-controller="Tarea" asp-action="Eliminar">
+                <input type="hidden" asp-for="IdTarea"/>
+
+                <h1>¿Seguro que desea eliminar la tarea: @Model.Nombre?</h1>
+
+                <br />
+                <h3 style="color:darkgray">Vencimiento: @Model.FechaVencimiento - @Model.HoraVencimiento</h3>
+                <br />
+
+                <div class="col-8 offset-4">
+                    <button type="submit" class="btn btn-danger btn-lg">Eliminar</button>
+                    <a asp-action="Listar" class="btn btn-secondary btn-lg">Cancelar</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
