@@ -1,0 +1,79 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = To_do_list
+build_property.RootNamespace = To_do_list
+build_property.ProjectDir = C:\Users\angel\OneDrive\Documentos\Angel\C# proyectos\To-do list\To-do list\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\angel\OneDrive\Documentos\Angel\C# proyectos\To-do list\To-do list
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/angel/OneDrive/Documentos/Angel/C\# proyectos/To-do list/To-do list/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/angel/OneDrive/Documentos/Angel/C\# proyectos/To-do list/To-do list/Views/Inicio/IniciarSesion.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5pY2lvXEluaWNpYXJTZXNpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/angel/OneDrive/Documentos/Angel/C\# proyectos/To-do list/To-do list/Views/Inicio/Registrarse.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5pY2lvXFJlZ2lzdHJhcnNlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/angel/OneDrive/Documentos/Angel/C\# proyectos/To-do list/To-do list/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/angel/OneDrive/Documentos/Angel/C\# proyectos/To-do list/To-do list/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/angel/OneDrive/Documentos/Angel/C\# proyectos/To-do list/To-do list/Views/TareaF/ListarFinalizado.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFyZWFGXExpc3RhckZpbmFsaXphZG8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/angel/OneDrive/Documentos/Angel/C\# proyectos/To-do list/To-do list/Views/Tarea/Eliminar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFyZWFcRWxpbWluYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/angel/OneDrive/Documentos/Angel/C\# proyectos/To-do list/To-do list/Views/Tarea/Guardar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFyZWFcR3VhcmRhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/angel/OneDrive/Documentos/Angel/C\# proyectos/To-do list/To-do list/Views/Tarea/Listar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFyZWFcTGlzdGFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/angel/OneDrive/Documentos/Angel/C\# proyectos/To-do list/To-do list/Views/Tarea/Modificar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFyZWFcTW9kaWZpY2FyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/angel/OneDrive/Documentos/Angel/C\# proyectos/To-do list/To-do list/Views/Tarea/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFyZWFcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/angel/OneDrive/Documentos/Angel/C\# proyectos/To-do list/To-do list/Views/Tarea/Ver.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFyZWFcVmVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/angel/OneDrive/Documentos/Angel/C\# proyectos/To-do list/To-do list/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/angel/OneDrive/Documentos/Angel/C\# proyectos/To-do list/To-do list/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/angel/OneDrive/Documentos/Angel/C\# proyectos/To-do list/To-do list/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-wztkauoc0k
